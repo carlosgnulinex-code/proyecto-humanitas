@@ -68,6 +68,57 @@ a:hover { text-decoration-color: var(--coral); }
 .nav-toggle span { display: block; width: 20px; height: 1.5px; background: var(--graphite); margin: 5px 0; }
 
 /* ============ HERO: carta abierta ============ */
+.hero-imagen {
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 40px 32px 0;
+}
+.hero-imagen img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 4px 24px rgba(31,58,46,0.10);
+}
+
+/* ============ INNOVIA-EU ============ */
+.innovia-section {
+  background: var(--ink-tint);
+  border-top: 1px solid #C8D8CC;
+  padding: 40px 32px;
+}
+.innovia-inner {
+  max-width: 680px;
+  margin: 0 auto;
+}
+.innovia-ref {
+  background: var(--white);
+  border: 1px solid #C8D8CC;
+  border-left: 4px solid var(--ink);
+  border-radius: 0 8px 8px 0;
+  padding: 18px 20px;
+  margin-top: 16px;
+}
+.innovia-codigo {
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+}
+.innovia-ref p {
+  font-size: 13px;
+  color: var(--graphite2);
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+.innovia-ref a {
+  color: var(--ink2);
+  font-weight: 500;
+}
+
+/* ============ HERO: carta abierta ============ */
 .hero {
   max-width: 680px;
   margin: 0 auto;
@@ -302,6 +353,11 @@ a:hover { text-decoration-color: var(--coral); }
   </button>
 </nav>
 
+<!-- IMAGEN ILUSTRATIVA -->
+<div class="hero-imagen">
+  <img src="Humanitas_-_Fidesol.png" alt="Ilustración del Proyecto Humanitas: figura humana digital rodeada por los valores del proyecto — Dignidad Humana, Igualdad, Educación, Justicia, Inclusión, Sostenibilidad, Paz y Solidaridad — organizados en el anillo de los Objetivos de Desarrollo Sostenible">
+</div>
+
 <!-- HERO: carta abierta -->
 <section id="inicio" class="hero">
   <div class="hero-eyebrow">Proyecto Humanitas</div>
@@ -485,9 +541,24 @@ Si hay conflicto entre eficiencia y dignidad, prioriza la dignidad. Si hay confl
   </div>
 </section>
 
+<!-- INNOVIA-EU -->
+<div class="innovia-section" id="innovia">
+  <div class="innovia-inner">
+    <div class="eyebrow">Marco institucional de investigación</div>
+    <h2 style="font-family:'Iowan Old Style',Palatino,Georgia,serif;font-size:20px;color:var(--ink);font-weight:normal;margin-bottom:12px">innovIA-EU: Inteligencia Artificial en Europa</h2>
+    <p style="font-size:14.5px;color:var(--graphite2);line-height:1.65">El Proyecto Humanitas se desarrolla en el marco del proyecto de investigación <strong style="color:var(--ink2)">innovIA-EU: Inteligencia Artificial en Europa. ¿Auge o declive? Una aproximación bibliométrica/patentométrica y su impacto en medios de comunicación y redes sociales</strong>, financiado por el Ministerio de Ciencia, Innovación y Universidades de España, la Agencia Estatal de Investigación y la Unión Europea a través del Fondo Europeo de Desarrollo Regional (FEDER), y desarrollado en la Universidad de Granada.</p>
+    <div class="innovia-ref">
+      <div class="innovia-codigo">PID2023-149646NB-I00</div>
+      <p>MICIU/AEI/10.13039/501100011033 y FEDER · Universidad de Granada<br>
+      Más información: <a href="https://ugr.es/~victorhs/IAEU/" target="_blank">ugr.es/~victorhs/IAEU/</a></p>
+    </div>
+  </div>
+</div>
+
 <footer class="footer">
   <p>Humanitas · un proyecto en curso · junio de 2026</p>
   <p style="margin-top:8px">Inspirado en <em>Magnifica Humanitas</em> (León XIV, 2026)</p>
+  <p style="margin-top:12px;font-size:12px;color:var(--graphite2)">Proyecto PID2023-149646NB-I00 · MICIU/AEI/10.13039/501100011033 y FEDER · Universidad de Granada</p>
 </footer>
 
 <script>
